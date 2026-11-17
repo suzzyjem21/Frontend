@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        div {
+            display: flex;
+            gap: 15px;
+        }
+        .card {
+            text-decoration: none;
+            color: white;
+        }
+        aside{
+            display:flex;
+            flex-direction: column;
+            background-color: white;
+            gap: 20px;
+            border-radius: 0 10px;
+            width: 200px;
+            height: 450px;
+            box-shadow: 5px 5px 10px black;
+            padding: 20px;
+        }
+        .container {
+            background-color: aquamarine;
+            display: flex;
+        }
+        .box {
+            display: flex;
+            align-items: center;
+            color: black;
+            text-decoration: none;
+            border: 1px solid lightgrey;
+            height: 30px;
+            width: 150px;
+            
+            
+        }
+        .can{
+            display: flex;
+            flex-direction: column;
+        }
+        .car{
+            display: flex;
+        }
+        .bot{
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            height: 350px;
+            width: 300px;
+            background-color: white;
+            align-items: center;
+            padding: 10px;
+            text-align: center;
+        }
+        img{
+            border-radius: 50%;
+            width: 130px;
+            height: 130px;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+        }
+         button:hover{
+            background-color: blue;
+            transform: scale(0.9);
+         }
+         footer{
+            display: flex;
+            background-color: black;
+            height:80px;
+            justify-content: center;
+         }
+         .foot{
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+         padding: 10px;
+         }
+         .foot a{
+            color: white;
+            text-decoration: none;
+         }
+         .foot a:hover{
+            color:blue;
+         }
+         .foot p{
+            color:white;
+            text-align: center;
+         }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <div>
+            <a href="#Home" class="card">Home</a>
+            <a href="#About" class="card">About</a>
+            <a href="#services" class="card">Services</a>
+            <a href="#Contact" class="card">Contact</a>
+        </div>
+    </header>
+    <div class="container">
+        <aside>
+            <h2>Navigation</h2>
+            <a href="#Dashboard" class="box">Dashboard</a>
+            <a href="#Profile" class="box">Profile</a>
+            <a href="#settings" class="box">Settings</a>
+            <a href="#Model" class="box">Model</a>
+            <a href="#Invite" class="box">Invite</a>
+            <a href="#Transaction" class="box">Transaction</a>
+            <a href="#payment" class="box">Payment</a>
+        </aside>
+        <div class="can">
+            <h3>Profile cards</h3>
+            <div class="car">
+                <div class="bot">
+                    <img src="meemah.jpeg.jpg" alt="first profile">
+                    <h2>Ada Lovelace</h2>
+                    <p>Mathematician and writer,known for his work on early computers. </p>
+                    <button>View Profile</button>
+                </div>
+
+                <div class="bot">
+                    <img src="meemah.jpeg.jpg" alt="second profile">
+                    <h2>Grace Hopper</h2>
+                    <p>Computer Scientist and Us Navy rear admiral.pioneer of programming languages.</p>
+                    <button>View Profile</button>
+                </div>
+
+                <div class="bot">
+                    <img src="meemah.jpeg.jpg" alt="third profile">
+                    <h2>Alan Turing</h2>
+                    <p>Father of theoreotical computer science and artificial intelligence. </p>
+                    <button>View Profile</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+            <div>
+            <a href="#privacy">Privacy</a>
+            <a href="#Terms">Terms</a>
+            <a href="#Help">Help</a>
+            </div>
+            <p>&copy; 2025 My Website</p>
+        </div>
+    </footer>
+</body>
+</html>

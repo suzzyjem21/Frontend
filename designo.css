@@ -1,0 +1,301 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding-left:30px;
+    padding-right:30px;
+}
+header{
+    display: flex;
+    color:brown;
+    justify-content: space-between;
+}
+.card h2{
+    display: flex;
+   margin-left:60px
+}
+header a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: brown;
+}
+div{
+    display:flex
+}
+.content{
+    gap:60px;
+}
+.content a{
+    color: brown;
+    background-color: whitesmoke;
+}
+.card{
+    background-color:rgb(241, 158, 158);
+    display: flex;
+    width: 100%;
+    height: 150px;
+    color: white;
+    font-size: 1.5rem;
+    flex-direction: row;
+    font-size: 1.1rem;
+    border-radius:10px;
+    margin-bottom: 30px;
+}
+.context{
+    color: white;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    align-items: center;
+    font-size: 1.5rem;
+    gap:10px
+}
+.jemima{
+    width:1px;
+    background-color: white;
+    height: 80%;
+    margin-left:150px;
+    margin-top:5px;
+}
+
+.leg{
+    display:flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+h2{
+  text-align: center;
+}
+.main{
+ width: 300px;
+ min-height: 350px;
+ border-radius: 10px;
+ margin: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding-left: 10px;
+}
+.circle{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    background-color: orangered;
+    align-items: flex-end;
+    justify-content:center;
+    align-items: center;
+    font-size: medium;
+}
+.cap{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding-left: 20px;
+    gap: 10px;  
+}
+button{
+    background-color: white;
+    color: black;
+    width: 120px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.second{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    gap:20px;
+}
+.second_1{
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(71, 17, 17);
+    border-radius: 15px;
+    width: 40%;
+} 
+.second_2{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    gap:20px
+}
+.card1{
+    display: flex;
+    align-items: flex-end;
+    background-color:rgb(1, 1, 15);
+    border-radius: 15px;
+    height: 49%;
+    width: 100%;
+}
+.card2{
+    display: flex;
+    align-items: flex-end;
+    background-color:rgb(241, 158, 158);
+    border-radius: 15px;
+    height: 49%;
+    width:100%;
+}
+.web{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.web1{
+    font-size:1.5rem;
+    color:white;
+}
+.web2{
+    display: flex;
+    gap:10px;
+}
+.pro{
+    color:yellow
+}
+.line1{
+    width: 30px;
+    height: 2px;
+    background-color: yellow;
+    margin-top: 9px;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.app1 {
+    font-size:1.5rem;
+    color:white;
+}
+.app2{
+    display: flex;
+    gap:10px;
+}
+.dash{
+  color:yellow
+
+}
+.line2{
+    width: 30px;
+    height: 2px;
+    background-color: yellow;
+    margin-top: 9px;   
+}
+.design{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+.design1{
+    font-size:1.5rem;
+    color:white;  
+}
+.design2{
+    display: flex;
+    gap:10px;  
+}
+.pin{
+    color:yellow;
+}
+.line3{
+    width: 30px;
+    height: 2px;
+    background-color: yellow;
+    margin-top: 9px;      
+}
+.box1{
+    display: flex;
+    width:100%;
+    height:200px;
+    background-color:rgb(245, 128, 147);
+    border-radius: 10px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    font-size: 2.5rem;
+    color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text2{
+    display: flex;
+    color: white;
+    padding-left: 50px;
+    font-size: 1.5rem;
+    
+    
+}
+.mini_box{
+    display: flex;
+    width:120px;
+    height: 10px;
+    margin-bottom: 1000px;
+    justify-items: right;
+    margin-left: 700px;
+    align-items: center;
+    justify-content: center;
+    font-size: bolder;
+    padding: 10px;
+    border-radius:10px;
+    border:4px solid white;
+    color: white;
+}
+footer{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    height: 300px;
+    margin-top: 20px;
+}
+footer h2{
+    display: flex;
+    color: white;
+    text-align: left;
+}
+nav{
+    display:flex;
+    gap: 10px;
+    padding-top: 25px;
+
+}      
+nav a{
+    text-decoration:none;
+    color:white;
+    
+}
+.watt {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+hr{
+    background-color: grey;
+    width: 100%;
+    height: 0.2px;
+}
+.box3{
+    display: flex;
+    color: gray;
+    flex-direction: column;
+    margin-left: 15
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}

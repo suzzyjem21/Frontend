@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: pink;
+        }
+        form{
+            border-radius: 20px;
+            border:1px solid blue;
+            padding: 20px;
+            width: 300px;
+        }
+        input{
+            height: 30px;
+            border-radius: 8px;
+        }
+        textarea{
+            border-radius: 8px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body style="background-color:pink;" >
+    <h1>forms in html</h1>
+    <p>form tag is used to define forms in html</p>
+    <form >
+<label  for="fname">Firstname </label>
+<input type="text"id="fname"><br><br>
+        <label for="lname">last name</label>
+        <input type="text" id="lname"><br><br>
+        <label for="email">email</label>
+        <input type="email" id="email"><br><br>
+        <label for="password">password</label>
+        <input type="password" id="password"><br><br>
+        <label for="date">date</label>
+        <input type="date" id="date"><br><br>
+        <label for="color">color</label>
+    <input type="color"id="color"><br><br>
+    <label for="phone">phone</label>
+    <input type="tel" id="phone">
+    </form>
+    <hr>
+    <form action="submit.js">
+    <input type="username" placeholder="enter your username"><br><br>
+    <input type="email" placeholder="enter your email"><br><br>
+    <input type="password" placeholder="enter your password"><br><br>
+    <textarea name="contact" placeholder="message us"rows="6" cols="30"></textarea>
+    <button>submit</button>
+    </form>
+</body>
+</html>

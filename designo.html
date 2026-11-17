@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding-left:30px;
+    padding-right:30px;
+}
+header{
+    display: flex;
+    color:brown;
+    justify-content: space-between;
+}
+.card h2{
+    display: flex;
+   margin-left:60px
+}
+header a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: brown;
+}
+div{
+    display:flex
+}
+.content{
+    gap:60px;
+}
+.content a{
+    color: brown;
+    background-color: whitesmoke;
+}
+.card{
+    background-color:rgb(241, 158, 158);
+    display: flex;
+    width: 100%;
+    height: 150px;
+    color: white;
+    font-size: 1.5rem;
+    flex-direction: row;
+    font-size: 1.1rem;
+    border-radius:10px;
+    margin-bottom: 30px;
+}
+.context{
+    color: white;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    align-items: center;
+    font-size: 1.5rem;
+    gap:10px
+}
+.jemima{
+    width:1px;
+    background-color: white;
+    height: 80%;
+    margin-left:150px;
+    margin-top:5px;
+}
+
+.leg{
+    display:flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+h2{
+  text-align: center;
+}
+.main{
+ width: 300px;
+ min-height: 350px;
+ border-radius: 10px;
+ margin: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding-left: 10px;
+}
+.circle{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+    background-color: orangered;
+    align-items: flex-end;
+    justify-content:center;
+    align-items: center;
+    font-size: medium;
+}
+.cap{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding-left: 20px;
+    gap: 10px;  
+}
+button{
+    background-color: white;
+    color: black;
+    width: 120px;
+    height: 40px;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.second{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    gap:20px;
+}
+.second_1{
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(71, 17, 17);
+    border-radius: 15px;
+    width: 40%;
+} 
+.second_2{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    gap:20px
+}
+.card1{
+    display: flex;
+    align-items: flex-end;
+    background-color:rgb(1, 1, 15);
+    border-radius: 15px;
+    height: 49%;
+    width: 100%;
+}
+.card2{
+    display: flex;
+    align-items: flex-end;
+    background-color:rgb(241, 158, 158);
+    border-radius: 15px;
+    height: 49%;
+    width:100%;
+}
+.web{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.web1{
+    font-size:1.5rem;
+    color:white;
+}
+.web2{
+    display: flex;
+    gap:10px;
+}
+.pro{
+    color:yellow
+}
+.line1{
+    width: 30px;
+    height: 2px;
+    background-color: yellow;
+    margin-top: 9px;
+}
+.app {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.app1 {
+    font-size:1.5rem;
+    color:white;
+}
+.app2{
+    display: flex;
+    gap:10px;
+}
+.dash{
+  color:yellow
+
+}
+.line2{
+    width: 30px;
+    height: 2px;
+    background-color: yellow;
+    margin-top: 9px;   
+}
+.design{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+}
+.design1{
+    font-size:1.5rem;
+    color:white;  
+}
+.design2{
+    display: flex;
+    gap:10px;  
+}
+.pin{
+    color:yellow;
+}
+.line3{
+    width: 30px;
+    height: 2px;
+    background-color: yellow;
+    margin-top: 9px;      
+}
+.box1{
+    display: flex;
+    width:100%;
+    height:200px;
+    justify-content: space-between;
+    background-color:indianred;
+    border-radius: 10px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    padding-left: 30px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.now{
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+.mini-box{
+    display: flex;
+    width:180px;
+    height: 10px;
+    margin-top: 120px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    justify-items: right;
+    align-items: center;
+    justify-content: center;
+    font-size: bolder;
+    padding: 10px;
+    border-radius:10px;
+    background-color: indianred;
+    border:4px solid white;
+    color: white;
+}
+footer{
+    display:flex;
+    flex-direction: column;
+    background-color: black;
+    height: 300px;
+    margin-top: 20px;
+}
+footer h2{
+    display: flex;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav{
+    display:flex;
+    gap: 10px;
+    padding-top: 25px;
+
+}      
+nav a{
+    text-decoration:none;
+    color:white;
+    
+}
+.watt {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.line7{
+    background-color: grey;
+    width: 100%;
+    height:1px;
+}
+.box3{
+    padding-left: 20px;
+    display: flex;
+    color: gray;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box4{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-size: medium;
+}
+.space{
+    justify-content: space-between;
+}
+.circle-2{
+    display: flex;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;  
+    border: 1px solid white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+.circle-2 a{
+    color: white;
+}
+div a{
+    text-decoration: none;
+    color: white;
+    align-content: center;
+}
+
+  </style>
+</head>
+<body>
+<header> 
+ <a href="Designo " class="designo">DESIGNO</a>
+    <div class="content">
+        <a href="OUR COMPANY">OUR COMPANY</a>
+        <a href="LOCATIONS">LOCATIONS</a>
+        <a href="CONTACT">CONTACT</a>
+    </div>   
+</header>
+<div class="card">
+  <div class="context">
+    Award winning<br>
+    custom designs and<br>
+    digital brandings
+  </div>
+    <div class="jemima">
+
+    </div>
+    <div class="cap">
+       <p>With over 10 years in the history,we are experienced in creating fully esponsive websites, app design, and engaging brand experiences.Find out <br> more about our services</p>
+       <button>LEARN MORE</button>
+
+    </div>
+</div>
+<div class="second">
+    <div class="second_1">
+        <div class="web">
+            <div class="web1">
+                WEB DESIGN
+            </div>
+            <div class="web2">
+                <div class="pro">
+                    VIEW PROJECT
+                </div>
+                <div class="line1">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="second_2">
+        <div class="card1">
+            <div class="app">
+                <div class="app1">
+                    APP DESIGN
+                </div>
+                <div class="app2">
+                    <div class="dash">
+                        VIEW PROJECTS
+                    </div>
+                    <div class="line2">
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="card2">
+            <div class="design">
+                <div class="design1">
+                    GRAPHIC DESIGN
+                </div>
+                <div class="design2">
+                    <div class="pin">
+                        VIEW PROJECTS
+                    </div>
+                    <div class="line3">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</div>
+
+<h2> Why Designo </h2>
+<div class="leg">
+<div class="main">
+<div class="circle">
+    ⭐
+</div>
+    <h2>PASSIONATE</h2>
+    <P>Each project with an in depth brand reaesrch to ensure we only create products that resonate with your audience.</P>
+    
+</div>
+<div class="main">
+    <div class="circle">
+        ⚙️
+    </div>
+    <h2>RESOURCEFUL</h2>
+    <p>Everything that we do has a strategic purpose.We use an angle approach in all of our projects and value customer collaboration.</p> 
+</div>
+<div class="main">
+    <div class="circle">
+        💛
+    </div>
+    <h2>FRIENDLY</h2>
+  <p>We are a group of enthuastic folks who knows how to put people first. our success depends on our customers being satisfied.</p>   
+</div>
+</div>
+
+<div class=box1>
+        <div class="text1">
+           Let's talk about your project
+           <span class="now">Ready to take it to the next level? contact us today and find<br>
+            out how our expertise can help your bussiness grow</span>
+        </div>
+        <button class="mini-box">
+            GET IN TOUCH
+        </button>
+</div>
+
+<footer>
+    <div class="watt">
+        <h2>DESIGNO</h2>
+        <nav>
+            <a href="OUR COMPANY">OUR COMPANY</a>
+            <a href="LOCATIONS">LOCATIONS</a>
+            <a href="CONTACT">CONTACT</a>
+        </nav>
+    </div>
+    <div class="line7"></div>
+    <div class="space">
+        <div class="box3">
+            <h4>Designo Central office</h4>
+            <p>3886 willington office</p>
+            Toronto,onatario M9C 375
+        </div>
+
+        <div class="box4">
+            P:+1 253-863-8967<br>
+            M:contact@design0.co
+        </div>
+        
+    </div>
+    <div class="icon">
+        <div class="circle-2">
+            <a href="#">f</a>
+        </div>
+        <div class="circle-2">
+            <a href="#">y</a>
+        </div>
+        <div class="circle-2">
+            <a href="#">in</a>
+        </div>
+        <div class="circle-2">
+            <a href="#">p</a>
+        </div>
+    </div>
+    
+</footer>
+
+
+</body>
+</html>
